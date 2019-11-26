@@ -1,6 +1,6 @@
-FROM zerotier/zerotier-containerized
+FROM embrangle/zerotier
 
-LABEL maintainer="seedgou <seedgou@gmail.com>"
+LABEL maintainer="proletarius101"
 
 RUN ln -sf /zerotier-one /zerotier-idtool
 COPY startup.sh /startup.sh
